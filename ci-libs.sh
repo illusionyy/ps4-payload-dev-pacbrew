@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 
-PKGS=(sdk openlibm libcxx fast_float
+PKGS=(sdk sqlite openlibm libcxx fast_float
       bzip2 zlib xz zstd libdeflate libb64
       libevent
       miniupnpc
       openssl
-      sqlite
       libpsl curl asio)
 
 sudo pacman --noconfirm --remove ps4-payload-dev
